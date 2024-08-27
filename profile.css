@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    /* height: 608vh; */
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+svg.contact-icons {
+    width: 25px;
+    color: white;
+}
+ul li {
+    padding: 0 5px 0 5px;
+    list-style-type: none;
+}
+ul.footer__social-list {
+    justify-content: center;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+h3.underconstruction.cdetails {
+    width: 50vw;
+    color: snow;
+    margin: 0;
+    display: inline-flex;
+}
+.underconstruction {
+    color: aliceblue;
+    text-align: center;
+}
+
+#narender {
+    margin-top: 16vh;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+.footer__copyright{
+    color: white;
+}
+
+span {
+    color: #9270b7;
+} 
+
+#storyhead {
+    margin-top: 0vh;
+}
+
+#storytext {
+    margin-top: 10vh;
+    width: 50vw;
+    color: snow;
+}
+
+#contact {
+    color: rgb(63, 255, 255);
+}
+
+#byebye {
+    margin-top: 200vh;
+    color: darkslateblue;
+}
+.footer__copyright {
+    font-size: 10px;
+}
+
+
+@media only screen and (max-width: 300px) {
+      /* body { */
+      /*   background-color: red; */
+      /* } */
+
+    #narender {
+        margin-top: 8vh;
+        font-size: 1.2rem;
+    }
+
+
+    #storyhead {
+        margin-top: 0vh;
+        font-size: 0.7rem;
+    }
+
+    #storytext {
+        font-size: 10px;
+        margin-top: 6vh;
+        width: 50vw;
+    }
+
+    .underconstruction.cdetails {
+        font-size: 10px;
+        width: 50vw;
+        color: snow;
+        margin: 0;
+    }
+    .footer__copyright {
+        font-size: 8px;
+    }
+}
+@media only screen and (min-width:301px) and (max-width: 500px) {
+  /* body { */
+  /*   background-color: lightblue; */
+  /* } */
+
+    #narender {
+        margin-top: 14vh;
+        font-size: 2.5rem;
+    }
+
+
+    #storyhead {
+        margin-top: 0vh;
+        font-size: 1.6rem;
+    }
+
+    #storytext {
+        font-size: 1rem;
+        margin-top: 6vh;
+        width: 50vw;
+    }
+
+    .underconstruction.cdetails {
+        font-size: 1rem;
+        width: 50vw;
+        color: snow;
+        margin: 0;
+    }
+    .footer__copyright {
+        font-size: 10px;
+    }
+}
